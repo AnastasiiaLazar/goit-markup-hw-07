@@ -1,4 +1,4 @@
-.team-section {
+.section_other-bg {
     background-color: var(--bg-team-section-color);
 }
 
@@ -19,7 +19,7 @@
     padding-bottom: 30px;
 }
 
-.team-members__name {
+.team-members__title {
     margin-bottom: 10px;
 
     font-weight: 500;
@@ -31,7 +31,7 @@
     color: var(--main-text-color);
 }
 
-.team-members__position {
+.team-members__text {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;

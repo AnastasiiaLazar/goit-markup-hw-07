@@ -3,7 +3,7 @@
     margin-left: auto;
 }
 
-.contact-header {
+.contacts__link {
     display: flex;
     align-items: center;
 
@@ -25,27 +25,11 @@
     }
 }
 
-.contact-header__icon {
+.contacts__icon {
     margin-right: 10px;
     fill: currentColor;
 }
 
-.contacts-item:not(:last-child) {
+.contacts__item:not(:last-child) {
     margin-right: 50px;
-}
-
-.contact-footer {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-
-    color: var(--mute-logo-transparent-text);
-
-    transition: color var(--transition-duration-and-func);
-
-    &:hover,
-    &:focus {
-        color: var(--accent-color);
-    }
 }
